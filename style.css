@@ -56,16 +56,6 @@ header nav a{
 header li:first-child{padding-left: 0;}
 header li:last-child{padding-right: 0;}
 
-/*
-.hero{
-    background-image: url(assets/white-red-cake.jpeg);
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center;
-    min-height: 98vh;
-    
-}
-*/
 .banner{
     width: 100%;
     min-height: 70vh;
@@ -94,16 +84,38 @@ section .left .cake-photo{
 section .right{
     flex-shrink:50;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: 10vw;
 }
 
 section .right h1{
+    padding-top: 5vh;
     color: antiquewhite;
     text-align: center;
     font-size: 2.8em;
     font-weight: 800;
+}
+
+section .right h2{
+    padding-top: 3vh;
+    color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+section .right a{
+    border-radius: 2px;
+    color: #1e0e0d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    padding: 0.7em;
+    margin-top: 5vh;
+    background-color: antiquewhite;
+    margin-bottom: 5    vh;
 }
 
 @media(max-width:880px){
@@ -124,17 +136,13 @@ section .right h1{
         font-size: 1.2em;;
     }
     
-    .hero{
-        min-height: 80vh;
-    }
-
     .banner{
         flex-direction: column;
     }
 
     section .left{
-        height: 100%;
-        flex-basis:80% ;
+        height: 100vh;
+        flex:80%;
     }
 
     section .left .cake-photo{
@@ -154,11 +162,6 @@ section .right h1{
 
     .logo{
     width: 33vw;
-    }
-
-
-    .hero{
-        min-height: 80vh;
     }
 }
 
