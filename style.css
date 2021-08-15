@@ -191,10 +191,10 @@ section .right a{
     section .right a{font-size: 1rem;}
 }
 
-@media(max-width:500px){
+@media(max-width:600px){
     input, label{
         position: absolute;
-        color: antiquewhite;
+        color:antiquewhite;
     }
     input{
         display: none;
@@ -211,7 +211,17 @@ section .right a{
         opacity: 1;
     }
 
-    
+    .hm-list{
+        transition: 1s;
+        font-size: 2.8vh;
+        width: 100%;
+        z-index: 5;
+        display: initial;
+        position: absolute;
+        color:rgb(255, 26, 26);
+        background-color:antiquewhite;
+        top:-350px;
+    }
 
     /*BARS ICON*/
     .fa-bars{
@@ -220,10 +230,10 @@ section .right a{
         font-size: 5.5vw;
         top: 0;
         left: 0;
-        color: antiquewhite;
         z-index: 5;
         position: absolute; 
         display: inline-block;
+        transition: 0.6s;
     }
 
     /*MENU*/
@@ -236,17 +246,15 @@ section .right a{
         display: initial;
         cursor: pointer;
     }
+
     input[type="checkbox"]:checked ~ .hm-list{
-        transition: 0.1s;
-        font-size: 2.8vh;
-        width: 100%;
-        z-index: 5;
-        display: initial;
-        position: absolute;
-        color: antiquewhite;
-        background-color:rgb(255, 26, 26);
-        
-        ;
+        transform: translateY(350px);
+    }
+
+    label{color: antiquewhite;}
+
+    input[type="checkbox"]:checked ~ label{
+        color: rgb(255, 26, 26);
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul{
@@ -258,7 +266,7 @@ section .right a{
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul a{
-        font-weight: lighter;
+        font-weight:normal;
         font-size: 2.8vh;
     }
 
@@ -273,11 +281,20 @@ section .right a{
         display: none;
     }
     section .right{
+        position: relative;
         font-weight:300;
     }
-    section .right h1{font-size: 8.5vw;} 
-    section .right h2{font-size:3.4vw;}
-    section .right a{font-size: 0.9rem;}
+
+    section .right .choc-img{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        
+    }
+
+    section .right h1{font-size: 8.5vw; z-index: 5;} 
+    section .right h2{font-size:3.4vw; z-index: 5;}
+    section .right a{font-size: 0.9rem; z-index: 5;}
 
     .banner{
         min-height: 66vh;
