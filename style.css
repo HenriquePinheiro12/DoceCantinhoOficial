@@ -1,8 +1,12 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
+/*:active -> after clicked*/
+
+
+*{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;;}
+
 
 nav, ul{list-style:none;}
 
-a{text-decoration: none;cursor: pointer;opacity: 0.9;}
+a{color: unset; text-decoration: none;cursor: pointer;opacity: 0.9;}
 
 a:hover{opacity: 1;}
 
@@ -14,6 +18,20 @@ a:hover{opacity: 1;}
 
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 /*font-family: 'Parisienne', cursive;*/
+
+.fa-bars{
+    display: none;
+}
+
+input[type="checkbox"], label{
+    z-index: 9;
+    display: none;
+}
+
+.hm-list{
+    display:none;
+}
+
 
 header{
     background-color: ivory;
@@ -117,60 +135,13 @@ section .right a{
     background-color: antiquewhite;
     margin-bottom: 5vh;
 }
-/*
-@media(max-width:950px){
-    .logo{
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        width: 20vw;
-    }
-    
-    header{
-        flex-direction: column;
-    }
-    header nav{
-        margin: 0;
-    }
-    header nav a{
-        padding-left: 2vw;
-        font-size: 1.2em;;
-    }
-    
-    .banner{
-        min-height:70vh;
-        flex-direction: column;
-    }
 
-    section .left{
-        height: 100vh;
-        flex:80%;
-    }
-
-    section .left .cake-photo{
-        width: 100%;
-        height: 100%;
-    }
-
-    section .right{
-        margin: 0 auto;
-    }
-
-    section .right h2{
-        width: 80%;
-    }
-}
-*/
 @media(max-width:950px){
     header{
         background:transparent;
         z-index: 10;
         position: absolute;
         padding-bottom:0.5vh;   
-    }
-
-
-
-    header{
         flex-direction: column;
     }
 
@@ -221,6 +192,76 @@ section .right a{
 }
 
 @media(max-width:500px){
+    input, label{
+        position: absolute;
+        color: antiquewhite;
+    }
+    input{
+        display: none;
+    }
+    label{
+        margin-left: 1.8vh;
+        margin-top:1.8vh;
+        font-size: 5.5vw;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+    }
+    label:hover, label:active{
+        opacity: 1;
+    }
+
+    
+
+    /*BARS ICON*/
+    .fa-bars{
+        margin-left: 1.8vh;
+        margin-top:1.8vh;
+        font-size: 5.5vw;
+        top: 0;
+        left: 0;
+        color: antiquewhite;
+        z-index: 5;
+        position: absolute; 
+        display: inline-block;
+    }
+
+    /*MENU*/
+    /*
+        obs: tá com after pq eu n sei oq fazer ainda
+
+        obs: display:block ocupa a linha todaR
+    */
+    label{
+        display: initial;
+        cursor: pointer;
+    }
+    input[type="checkbox"]:checked ~ .hm-list{
+        transition: 0.1s;
+        font-size: 2.8vh;
+        width: 100%;
+        z-index: 5;
+        display: initial;
+        position: absolute;
+        color: antiquewhite;
+        background-color:rgb(255, 26, 26);
+        
+        ;
+    }
+
+    input[type="checkbox"]:checked ~ .hm-list ul{
+        margin: 6.5vh auto;
+    }
+
+    input[type="checkbox"]:checked ~ .hm-list ul li{
+        margin: 1.5vh auto;
+    }
+
+    input[type="checkbox"]:checked ~ .hm-list ul a{
+        font-weight: lighter;
+        font-size: 2.8vh;
+    }
+
     header{
         background: transparent;
     }
