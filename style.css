@@ -136,7 +136,7 @@ section .right a{
     margin-bottom: 5vh;
 }
 
-@media(max-width:950px){
+@media(max-width:1050px){
     header{
         background:transparent;
         z-index: 10;
