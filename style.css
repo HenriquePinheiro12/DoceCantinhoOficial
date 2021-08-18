@@ -136,6 +136,12 @@ section .right a{
     margin-bottom: 5vh;
 }
 
+
+/*TODO: hover effect*/
+@media(min-width:1050px){
+    header nav a:hover{}
+}
+
 @media(max-width:1050px){
     header{
         background:transparent;
