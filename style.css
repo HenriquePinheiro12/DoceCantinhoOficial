@@ -37,8 +37,6 @@ header{
     background-color: ivory;
     width: 100%;
     /*position: absolute;*/
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,11 +143,38 @@ section.images{
     background-color: ivory;
 }
 
+section.images .i1{
+    background: url(assets/candies.jpg);
+}
+section.images .i2{
+    background: url(assets/netflix-cake.jpeg);
+
+}
+section.images .i3{
+    background: url(assets/oreo-cake.jpeg);
+}
+section.images .i4{
+    background: url(assets/choc-cups.jpeg);    
+}
+
+section.images .img{
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+section.images .img:hover{
+    animation: diminute 3.5s ease-in-out infinite;
+}
+
+@keyframes diminute{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.03);}
+    100%{transform:scale(1);}
+}
+
 section.images .img{
     min-height: 500px;
-    background-position:bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: 30px 30px;
     flex-basis:30%;
     border-radius: 2px;
@@ -165,10 +190,14 @@ section.images .img{
     flex-shrink: 2;
 }   
 
-
 .images .img .over-img{
     color: transparent;
     border-radius: 0;
+    padding: 0 15px;
+    height: 0%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -185,6 +214,7 @@ section.images .img{
     transition: 1.5s;
     animation: overanimation 1.5s ease-in-out forwards;
 }
+
 
 @keyframes overanimation{
     0%{
@@ -347,6 +377,7 @@ section.images .img{
 
     header{
         background: transparent;
+        
     }
 
     header .logo{
