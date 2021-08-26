@@ -313,7 +313,7 @@ section.images .img{
     section .right a{font-size: 1rem;}
 }
 
-@media(max-width:750px){
+@media(max-width:800px){
     input, label{
         position: absolute;
         color:antiquewhite;
