@@ -263,7 +263,7 @@ section.images .img{
         background:transparent;
         z-index: 10;
         position: absolute;
-        padding-bottom:0.5vh;   
+        padding-bottom:0.5vw;   
         flex-direction: column;
     }
 
@@ -284,7 +284,7 @@ section.images .img{
     }
         
     .banner{
-        min-height:85vh;
+        min-height:63vw;
         flex-direction: column;
     }
 
@@ -313,7 +313,7 @@ section.images .img{
     section .right a{font-size: 1rem;}
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     input, label{
         position: absolute;
         color:antiquewhite;
@@ -380,7 +380,7 @@ section.images .img{
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul{
-        margin: 6.5vh auto;
+        margin: 6.5vw auto;
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul li{
@@ -420,6 +420,6 @@ section.images .img{
     section .right a{font-size: 0.9rem; z-index: 5;}
 
     .banner{
-        min-height: 66vh;
+        min-height: 73vw;
     }
 }
