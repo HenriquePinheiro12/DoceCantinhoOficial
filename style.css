@@ -284,7 +284,7 @@ section.images .img{
     }
         
     .banner{
-        min-height:63vw;
+        min-height:70vw;
         flex-direction: column;
     }
 
@@ -294,7 +294,7 @@ section.images .img{
     }
 
     section .left{
-        height: 150vw;
+        height: 100vw;
         flex:100%;
     }
 
@@ -347,8 +347,8 @@ section.images .img{
 
     /*BARS ICON*/
     .fa-bars{
-        margin-left: 1.8vh;
-        margin-top:1.8vh;
+        margin-left: 1.8vw;
+        margin-top:1.8vw;
         font-size: 5.5vw;
         top: 0;
         left: 0;
@@ -384,12 +384,12 @@ section.images .img{
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul li{
-        margin: 1.5vh auto;
+        margin: 0.5rem auto;
     }
 
     input[type="checkbox"]:checked ~ .hm-list ul a{
         font-weight:normal;
-        font-size: 2.8vh;
+        font-size: 1.2rem;
     }
 
     header{
@@ -420,6 +420,12 @@ section.images .img{
     section .right a{font-size: 0.9rem; z-index: 5;}
 
     .banner{
-        min-height: 73vw;
+        min-height: 100vw;
+    }
+}
+
+@media(max-width:300px){
+    .banner{
+        min-height:120vw;
     }
 }
