@@ -178,6 +178,8 @@ section.images .img{
     margin: 30px 30px;
     flex-basis:30%;
     border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.56); 
+box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.56);
 }
 
 .images .md-img{
@@ -257,6 +259,12 @@ section.images .img{
     }
 }
 
+footer{
+    height:130px;
+    background-color: #1e0e0d;
+}
+
+
 /*TODO: hover effect*/
 @media(max-width:1050px){
     header{
@@ -272,6 +280,8 @@ section.images .img{
         margin-top: 2vh;
         margin-bottom: 2vh;
         width: 25vw;
+        -webkit-box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.56); 
+box-shadow: 0px 0px 36px -1px rgba(0,0,0,0.56);
     }
     header nav{
         margin: 0 auto;
@@ -421,6 +431,14 @@ section.images .img{
 
     .banner{
         min-height: 100vw;
+    }
+
+    section.images{
+        flex-direction: column;
+    }
+
+    section.images .img{
+        height: 150px;
     }
 }
 

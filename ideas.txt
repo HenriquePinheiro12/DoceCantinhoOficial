@@ -1,0 +1,33 @@
+obs: test #343232
+
+
+INICIO
+
+SOBRE NÓS
+
+
+
+
+PRODUTOS | CATÁLOGO | PORTFÓLIO
+bolos
+doces
+chocolates
+sorvetes
+biscoitos
+
+
+
+
+ONDE ENCONTRAR(SOBRE NÓS)	
+google maps API?
+(sobre nós com onde encontrar dentro?)
+
+
+ENCOMENDAS	
+form?
+
+CONTATO
+whatsapp
+e-mail form
+(follow us)social media
+<https://www.britannia-superfine.com/contact/>
