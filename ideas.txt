@@ -14,9 +14,6 @@ SOBRE NÓS
 Onde encontrar - google maps API?
 (sobre nós com onde encontrar dentro?)
 
-ENCOMENDAS	
-form?
-
 CONTATO
 whatsapp
 e-mail form
