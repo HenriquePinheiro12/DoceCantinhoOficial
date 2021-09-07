@@ -1,0 +1,53 @@
+/* Header fixing */
+.hero{
+    background-color: #1e0e0d;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/main-cake.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    opacity: 0.6;   
+}
+
+.ctt-main{
+    width: 80%;
+    /* Mudar width para mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.ctt-main .ctt-info{
+    flex-grow: 3;
+    background-color:   #1e0e0d;
+    color: antiquewhite;
+    padding: 2%  13% 2% 5%;
+    transform: translateX(10%);
+}
+
+.ctt-main .ctt-img{
+    min-height: 100px;
+    background-image: url(../assets/netflix-cake.jpeg);
+    background-position: center;
+    background-size: cover;
+    flex-grow: 3;
+    transform: translateX(-10%);
+}
+
+@media(max-width:1050px){
+    .hero{
+        height: 23vw;
+    }
+}
+
+
+@media(max-width:800px){
+
+}
