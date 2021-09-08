@@ -1,4 +1,4 @@
-/* Header fixing */
+
 .hero{
     background-color: #1e0e0d;
 }
@@ -20,30 +20,80 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    background-color: aqua;
-    padding: 10px;
+    /* background-color: aqua; */
+    padding:35px 1vw
 }
 
 .ctt-main .ctt-info{
-    flex-grow: 3;
+    flex-grow: 5;
     background-color:   #1e0e0d;
     color: antiquewhite;
-    padding: 2%  13% 2% 5%;
+    padding: 5%  15% 5% 8%;
     transform: translateX(10%);
+    border-radius: 2px;
+}
+
+.ctt-main .ctt-info h2{
+    font-size: 2rem;
+}
+
+.info-box{
+    margin: 25px 40px;
+    display: flex;
+    align-items: center;
+}
+.info-box .fab, .fas{
+    font-size: 3rem;
+}
+
+.fa-phone{
+    font-size: 2.7rem;
+}
+
+.info-box span{
+    font-size: 1.2rem;
+    margin-left: 15px;
 }
 
 .ctt-main .ctt-img{
-    min-height: 100px;
+    min-height: 37vw;
     background-image: url(../assets/netflix-cake.jpeg);
     background-position: center;
     background-size: cover;
-    flex-grow: 3;
+    flex-grow: 5;
     transform: translateX(-10%);
+    border-radius: 2px;
+    flex-basis: 50vw;
+    display: flex;
+    align-items: stretch;
+    filter: saturate(120%);
 }
+
+.ctt-main .ctt-img .bg-effect{
+    width: 100%;
+    /* background-color:#1e0e0da0; */
+}
+
 
 @media(max-width:1050px){
     .hero{
         height: 23vw;
+    }
+
+    .ctt-main{
+        flex-direction: column;
+    }
+
+    .ctt-main .ctt-info{
+        transform: none;
+        flex-basis: 100%;
+        grid-row: 1;
+    }
+    .ctt-main .ctt-img{
+        transform: none;
+        flex-basis: 60vw;
+        width: 66%;
+        transform: translateY(-8%);
     }
 }
 
