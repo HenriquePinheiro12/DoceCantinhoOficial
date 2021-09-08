@@ -376,11 +376,11 @@ footer{
 }
 
 @media(max-width:800px){
-    input, label{
+    input.ch, label.ch{
         position: absolute;
         color:antiquewhite;
     }
-    input{
+    input.ch{
         display: none;
     }
     label{
