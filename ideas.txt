@@ -1,7 +1,7 @@
-obs: test #343232
+awardspace
+docecantinho.onlinewebshop.net
 
-TODO
-para todos os html e seus css da pasta pages, colocar class="ch" no input do menu hamburger 
+obs: test #343232
 
 
 INICIO
@@ -12,6 +12,7 @@ doces
 chocolates
 sorvetes
 biscoitos
+
 
 SOBRE NÓS
 Onde encontrar - google maps API?

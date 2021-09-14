@@ -18,3 +18,9 @@
         height: 23vw;
     }
 }
+
+@media(max-width:800px){
+    .hero{
+        height: 30vw;
+    }
+}
