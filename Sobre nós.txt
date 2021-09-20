@@ -37,3 +37,7 @@ Sex: 09:00 -17:00
 
 
 O doce cantinho é uma loja familiar, criada em 2019, através de sonho de infância de sua idealizadora, que sempre adorou cozinhar doces para a família e amigos. Tornou profissão o que antes era apenas um hobby, colocando em prática todo o aprendizado e estudo que vem desenvolvendo nos últimos tempos
+
+
+Chave Google Maps API
+AIzaSyCyigj3p5BrmgVTuujOUavTPtfbaA0zv-c
