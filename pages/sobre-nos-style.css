@@ -182,6 +182,34 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     border-radius: 2px;
 }
 
+.conhecer{
+    width: 100%;
+    background-color: #fffff0;
+    color: #1e0e0d;
+    text-align: center;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding: 4.5rem 0px;
+}
+
+.conhecer h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.conhecer p{
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.conhecer hr{
+    border: none;
+    border-radius: 2px;
+    background-color: #1e0e0d;
+    height: 3px;
+    width: 25%;
+}
 
 /* Set #map height, width and border radius */
 
@@ -255,6 +283,26 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         height: 2px;
     }
 
+    
+    .conhecer{
+        width: 100%;
+        padding: 3.5rem 0px;
+    }
+
+    .conhecer h1{
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .conhecer p{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+
+    .conhecer hr{
+        height: 3px;
+        width: 25%;
+    }
 
 }
     
@@ -338,6 +386,27 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
             height: 2px;
             border-radius: 2px;
         }
+        
+    /* group 4 */
+    .conhecer{
+        width: 100%;
+        padding: 3rem 0px;
+    }
+
+    .conhecer h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .conhecer p{
+        font-size: 0.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .conhecer hr{
+        height: 2px;
+        width: 35%;
+    }
 }
 
 @media(max-width:300px){
@@ -400,5 +469,26 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         width: 40%;
         height: 2px;
         border-radius: 2px;
+    }
+
+    /* group 4 */
+    .conhecer{
+        width: 100%;
+        padding: 1.5rem 0px;
+    }
+
+    .conhecer h1{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .conhecer p{
+        font-size: 0.6rem;
+        margin-bottom: 1.3rem;
+    }
+
+    .conhecer hr{
+        height: 2px;
+        width: 35%;
     }
 }
