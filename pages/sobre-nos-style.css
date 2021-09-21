@@ -34,11 +34,39 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
 .sobre-nos h1{
     color: antiquewhite;
     font-family: 'Parisienne', cursive;
-    font-size: 5rem;
+    font-size: 6rem;
     margin-bottom: 1.5rem;
     text-shadow: 1px 1px 50px antiquewhite;
 }
 
+.quem-somos{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 4.5rem 0px;
+}
+
+.quem-somos h1{
+    font-family: 'Parisienne', cursive;
+    font-size: 4rem;
+    color: #1e0e0d;
+    margin-bottom: 2rem;
+}
+
+.quem-somos p{
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.quem-somos hr{
+    height: 4px;
+    background-color: #1e0e0d;
+    border: none;
+    border-radius: 2px;
+    width: 25%;
+}
 
 /* Set #map height, width and border radius */
 
@@ -48,27 +76,89 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         height: 23vw;
     }
 
+    /* group 1 */
     .sobre-nos{
         height: 40vw;
         /* background-position: top; */
     }
     .sobre-nos h1{
-        font-size: 3.5rem;
+        font-size: 4.5rem;
         margin-bottom: 1rem;
     }
+
+    /* group 2 */
+    .quem-somos{
+        padding:3.5rem 0px;
+    }
+
+    .quem-somos h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .quem-somos p{
+        font-size: 1.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .quem-somos hr{
+        height: 4px;    
+        border-radius: 2px;
+        width: 30%;
+    }
+
 }
-@media(max-width:800px){
+
+@media(max-width:600px){
     
     .hero{
         height: 30vw;
     }
     
+    /* group 1 */
     .sobre-nos{
         height: 50vw;
         /* background-position: top; */
     }
     .sobre-nos h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 0.5rem;
+    }
+
+    /* group 2 */
+    .quem-somos{
+        padding:2.5rem 0px;
+    }
+    .quem-somos h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .quem-somos p{
+        font-size: 0.7rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .quem-somos hr{
+        height: 2px;    
+        border-radius: 2px;
+        width: 30%;
+    }
+}
+
+@media(max-width:300px){
+    .sobre-nos h1{
+        font-size: 2rem;
+        margin-bottom: 0.5rem;       
+    }
+    .quem-somos{
+        padding:2rem 0px;
+    }
+    .quem-somos h1{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .quem-somos p{
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
     }
 }
