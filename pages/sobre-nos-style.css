@@ -16,6 +16,10 @@
     opacity: 0.6;   
 }
 
+section h1{
+    font-family: 'Parisienne', cursive;
+}
+
 .sobre-nos{
     -webkit-box-shadow: inset 0px 5px 13px -8px #FFFFF0; 
 box-shadow: inset 0px 5px 13px -8px #FFFFF0;
@@ -33,7 +37,6 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
 
 .sobre-nos h1{
     color: antiquewhite;
-    font-family: 'Parisienne', cursive;
     font-size: 6rem;
     margin-bottom: 1.5rem;
     text-shadow: 1px 1px 50px antiquewhite;
@@ -49,7 +52,6 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
 }
 
 .quem-somos h1{
-    font-family: 'Parisienne', cursive;
     font-size: 4rem;
     color: #1e0e0d;
     margin-bottom: 2rem;
@@ -68,8 +70,73 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     width: 25%;
 }
 
-/* Set #map height, width and border radius */
+/* group 3 */
+.historia{
+    width: 100%;
+    background-color: #1e0e0d;
+    color: white;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding: 4.5rem 0px;
+}
 
+
+.historia h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.sub{
+    /* background: blue; */
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.s2{
+    margin-top: 3.5rem;
+}
+
+.img{
+    background-color: antiquewhite;
+    flex-basis: 50%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.text{
+    /* background-color: blue; */
+    flex-basis: 35%;
+}
+
+.text p{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+.text hr{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.i1{
+    background-image: url(../assets/mesa.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.i2{
+    background-image: url(../assets/pan-loja.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Set #map height, width and border radius */
 
 @media(max-width:1050px){
     .hero{
