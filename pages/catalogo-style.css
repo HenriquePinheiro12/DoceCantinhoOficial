@@ -1,6 +1,8 @@
 
 .hero{
     background-color: #1e0e0d;
+    -webkit-box-shadow: inset 0px -7px 15px -8px #fffff0; 
+    box-shadow: inset 0px -7px 15px -8px #fffff0;
 }
 
 .hero-img{

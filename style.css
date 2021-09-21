@@ -363,6 +363,8 @@ footer{
     section .left .cake-photo{
         width: 100%;
         height:100%;
+        -webkit-box-shadow: inset 0px -7px 15px -8px #fffff0; 
+    box-shadow: inset 0px -7px 15px -8px #fffff0;
     }
 
     
