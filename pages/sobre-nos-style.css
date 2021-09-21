@@ -228,6 +228,10 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     margin: 0.5rem 0; 
 }
 
+.endereco hr{
+    display: none;
+}
+
 .mapa{
     flex-basis: 60%;
     height: 350px;
@@ -382,6 +386,16 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     margin: 0.5rem 0; 
 }
 
+.endereco hr{
+    display:block;
+    border: none;
+    background: #1e0e0d;
+    height: 3px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
 /* group 5 */
 .horario{
     padding: 3.5rem 0px;
@@ -529,27 +543,35 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         margin: 0.5rem 0; 
     }
     
-/* group 5 */
-.horario{
-    padding: 3rem 0px;
-}
+    .endereco hr{
+        height: 2px;
+        width: 30%;
+        margin-top: 2rem;
+    }
+
+    /* group 5 */
+    .horario{
+        padding: 3rem 0px;
+    }
 
 
-.horario h1{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
+    .horario h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
 
-.horario li{
-    font-size:1rem;
-    margin: 0.5rem 0; 
-}
+    .horario li{
+        font-size:1rem;
+        margin: 0.5rem 0; 
+    }
 
-.horario hr{
-    height: 2px;
-    width: 20%;
-    margin-top: 1rem;
-}
+    .horario hr{
+        height: 2px;
+        width: 20%;
+        margin-top: 1rem;
+    }
+
+    
 }
 
 @media(max-width:300px){
@@ -652,6 +674,10 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     .endereco li{
         font-size:0.8rem;
         margin: 0.3rem 0; 
+    }
+
+    .endereco hr{
+        margin-top: 1.5rem;
     }
 
     .horario h1{
