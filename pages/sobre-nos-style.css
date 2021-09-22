@@ -21,10 +21,8 @@ section h1{
 }
 
 .sobre-nos{
-    -webkit-box-shadow: inset 0px 5px 13px -8px #FFFFF0; 
-box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     width: 100%;
-    height: 90vh;
+    height: 40vw;
     background-image: url(../assets/ana-monica-adjusted.jpg);
     background-position: center;
     background-size: cover ;
@@ -269,6 +267,28 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     margin-top: 2rem;
 }
 
+.logo-pan{
+    height: 35vw;
+    width:100%;
+    background-image: url(../assets/vitrine3.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.over-logo{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doce-pan{
+    width:18%;
+}
+    
 @media(max-width:1050px){
     .hero{
         height: 23vw;
@@ -417,6 +437,15 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
     width: 15%;
     margin-top: 2rem;
 }
+    
+.logo-pan{
+    height: 60vw;
+}
+
+.doce-pan{
+    width:30%;
+}
+
 }
     
 
@@ -571,6 +600,12 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         margin-top: 1rem;
     }
 
+    .logo-pan{
+        height: 60vw;
+    }
+    .doce-pan{
+        width: 40vw;
+    }
     
 }
 
@@ -689,4 +724,9 @@ box-shadow: inset 0px 5px 13px -8px #FFFFF0;
         font-size:0.8rem;
         margin: 0.3rem 0;        
     }
+    
+.doce-pan{
+    width:40%;
+}
+
 }
