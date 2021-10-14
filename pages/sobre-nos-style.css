@@ -27,7 +27,6 @@ section h1{
     background-position: center;
     background-size: cover ;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     display: flex;
     justify-content: center;
     align-items: flex-end;   
@@ -472,11 +471,11 @@ section h1{
         padding:2.5rem 0px;
     }
     .quem-somos h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 1rem;
     }
     .quem-somos p{
-        font-size: 0.7rem;
+        font-size: 1rem;
         margin-bottom: 1.5rem;
     }
 
@@ -491,7 +490,7 @@ section h1{
         padding: 2.5rem 0px;
     }
     .historia h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin-bottom: 2rem;
     }
 
@@ -504,7 +503,7 @@ section h1{
         width: 75%;
     }
     .text p{
-        font-size: 0.85rem;
+        font-size: 9rem;
         margin-bottom: 1rem;
     }
 
@@ -521,7 +520,7 @@ section h1{
     
         .over-del p{
             width: 80%;
-            font-size: 1.2rem;
+            font-size: 1rem;
             margin-bottom: 1.5rem;
         }
     
@@ -543,7 +542,7 @@ section h1{
     }
 
     .conhecer p{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         margin-bottom: 1.5rem;
     }
 
