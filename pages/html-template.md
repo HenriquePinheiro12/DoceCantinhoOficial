@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     
-    <title>Galeria</title>
+    <title>Catálogo</title>
 </head>
 <body>          
     <header>
@@ -53,7 +53,7 @@
         <div class="hero-img"> </div>
     </section>
 
-    <section style="height: 90vh;"></section>
+    <section style="height: 90vh;"></section><!-- Just for giving some height -->
     <footer>
         <div class="footer-top">
                 <ul>
@@ -64,7 +64,7 @@
         <div class="footer-bottom">
          <span><i class="far fa-copyright"></i><h3>2021 Doce Cantinho Oficial - Todos os direitos reservados.</h3></span>
         </div> 
-     </footer>
+    </footer>
 
 </body>
 </html>
