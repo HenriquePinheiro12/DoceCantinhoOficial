@@ -139,7 +139,7 @@ section .right a{
 }
 
 section.images{
-    width:80%;
+    width:90%;
     margin: 10px auto;
     display: flex;
     flex-flow: row wrap;
