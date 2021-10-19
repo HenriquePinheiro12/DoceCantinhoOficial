@@ -1,11 +1,17 @@
 /*:active -> after clicked*/
 
+/* TODO
+
+mudar a cor das fonts de antiquewhite para white
+
+*/
+
 
 *{transition:0.5s;padding: 0; margin: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;;}
 
 
 body{
-    background-color:ivory;
+    background-color:#fffff0;
 }
 
 nav, ul{list-style:none;}
@@ -160,6 +166,7 @@ section.images .i4{
 }
 
 section.images .img{
+    cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center; 
@@ -232,13 +239,13 @@ section.images .img{
 }
 
 
-.images .img .over-img .fas{
+.images .img .over-img .icon{
     font-size: 2.5rem;
     margin: 1.5rem;
 
 }
 
-.images .img:hover span, .fas{
+.images .img:hover span, .icon{
     animation: display 1.8s ease-in-out forwards;
 }
 
@@ -247,7 +254,7 @@ section.images .img{
     100%{color: antiquewhite;}
 }
 
-.images .img:hover .over-img span, .fas{
+.images .img:hover .over-img span, .icon{
     display: block;
 } 
 

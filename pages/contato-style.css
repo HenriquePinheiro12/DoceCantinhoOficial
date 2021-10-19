@@ -1,7 +1,7 @@
 
 .hero{
     background-color: #1e0e0d;
-    -webkit-box-shadow: inset 0px -7px 15px -8px #fffff0; 
+    -webkit-box-shadow: inset 0 x -7px 15px -8px #fffff0; 
     box-shadow: inset 0px -7px 15px -8px #fffff0;
 }
 
@@ -14,6 +14,20 @@
     display: flex;
     opacity: 0.6;   
 }
+/* 
+article{
+    padding: 3rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+article h1{
+    font-size: 4rem;
+    font-family: 'Parisienne', cursive;
+} */
 
 .ctt-main{
     width: 80%;
@@ -26,10 +40,11 @@
     padding:35px 1vw
 }
 
+
 .ctt-main .ctt-info{
     flex-grow: 5;
     background-color:   #1e0e0d;
-    color: antiquewhite;
+    color: white;
     padding: 5%  15% 5% 8%;
     transform: translateX(10%);
     border-radius: 2px;
@@ -38,7 +53,8 @@
 }
 
 .ctt-main .ctt-info h2{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: 'Parisienne', cursive;
 }
 
 .info-box{
@@ -112,20 +128,35 @@
     }
 }
 
-.newsletter{
+.newsletter, article{
     width: 100%;
     margin: 35px 0;
     text-align: center;
 }
 
 
-.newsletter h1{
+.newsletter h1, article h1{
+    font-family: 'Parisienne', cursive;
     color: #1e0e0d;
-    font-size: 2rem;
+    font-size: 4rem;
+    /* margin-bottom: 2rem; */
 }
 
-.newsletter p{
-    margin-top: 2vw;
+.newsletter p, article p{
+    margin: 0.5rem 0; 
+}
+
+article p{
+    font-size: 1.5rem;
+}
+
+.newsletter hr, article hr{
+    border: none;
+    border-radius: 2px;
+    background-color: #1e0e0d;
+    height: 3px;
+    width: 15%;
+    margin: 1.5rem auto 0;
 }
 
 form{
@@ -175,6 +206,22 @@ button{
         width: 66%;
         transform: translateY(-8%);
     }
+
+    .newsletter h1, article h1{
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .newsletter p, article p{
+        font-size:1.5rem;
+        margin: 0.5rem 0; 
+    }
+
+    .newsletter hr, article hr{
+        height: 3px;
+        width: 15%;
+        margin-top: 2rem;
+    }
 }
 
 
@@ -200,7 +247,7 @@ button{
 
     
     .ctt-main .ctt-info h2{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .info-box{
@@ -225,13 +272,21 @@ button{
         transform: translateY(-3%);
     }
 
-    .newsletter h1{
-        font-size: 1.5rem;
+    .newsletter h1, article h1{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
     }
     
-    .newsletter p{
-        font-size: 0.8rem;
-        margin-top: 2vw;
+    .newsletter p, article p{
+        max-width: 90%;
+        font-size:0.9rem;
+        margin: 0.5rem auto; 
+    }
+
+    .newsletter hr, article hr{
+        height: 2px;
+        width: 20%;
+        margin-top: 1rem;
     }
 
     form{
@@ -239,7 +294,8 @@ button{
         margin: 3vw 0;
     } 
     input.submit{
-        width: 70vw;
+        margin-top: 1rem;
+        width: 90vw;
         flex-basis: unset;       
     }
 }
