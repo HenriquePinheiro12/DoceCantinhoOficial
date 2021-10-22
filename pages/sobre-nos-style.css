@@ -67,6 +67,7 @@ section h1{
 .quem-somos p{
     font-size: 1.5rem;
     margin-bottom: 2.5rem;
+    max-width: 60%;
 }
 
 .quem-somos hr{
@@ -315,6 +316,10 @@ section h1{
         margin-bottom: 1rem;
     }
 
+    .sobre-nos p{
+        max-width: 70%;
+    }
+
     /* group 2 */
     .quem-somos{
         padding:3.5rem 0px;
@@ -494,6 +499,7 @@ section h1{
         padding: 0 1rem;
         font-size: 0.9rem;
         margin-bottom: 1.5rem;
+        max-width: 90%;
     }
 
     .quem-somos hr{

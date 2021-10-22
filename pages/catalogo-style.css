@@ -1,4 +1,3 @@
-
 .hero{
     background-color: #1e0e0d;
     -webkit-box-shadow: inset 0px -7px 15px -8px #fffff0; 
@@ -15,14 +14,71 @@
     opacity: 0.6;   
 }
 
+h1, h2{
+    font-family: 'Parisienne', cursive;    
+}
+
+.brown{background-color: #1e0e0d; color: white;}
+.white{background-color: #fffff0; color: #1e0e0d;}
+
+
+
+
+.logo-pan{
+    height: 35vw;
+    width:100%;
+    background-image: url(../assets/vitrine3.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.over-logo{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doce-pan{
+    width:18%;
+}
+
 @media(max-width:1050px){
     .hero{
         height: 23vw;
     }
+    .logo-pan{
+        height: 60vw;
+    }
+    
+    .doce-pan{
+        width:30%;
+    }
+    
 }
 
 @media(max-width:800px){
     .hero{
         height: 30vw;
+    }
+}
+
+
+@media(max-width:600px){
+    .logo-pan{
+        height: 60vw;
+    }
+    .doce-pan{
+        width: 40vw;
+    }
+}
+
+
+@media(max-width:300px){
+    .doce-pan{
+        width:40%;
     }
 }
