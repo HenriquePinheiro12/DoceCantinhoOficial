@@ -230,10 +230,10 @@ hr{
     font-weight: 700;
 }
 
-.mais-vendido-img nav li span{
+.mais-vendidos nav li span{
     opacity: 0.8;
-    font-size: 0.8rem;
-    margin-top: ;
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
 }
 
 @media(max-width:1050px){
@@ -382,6 +382,15 @@ hr{
     }
 }
 
+@media(max-width:440px){
+    .mais-vendidos nav li{
+        width: 100%;
+        max-width: 350px;
+        height: 120vw;
+    }
+}
+
+
 @media(max-width:300px){
     .doce-pan{
         width:40%;
@@ -394,6 +403,10 @@ hr{
     .titulo h1, .mais-vendidos h1{
         font-size: 3rem;
         margin-bottom: 0.5rem;
+    }
+
+    .mais-vendidos h1{
+        font-size: 2.5rem;
     }
 
 
@@ -423,5 +436,14 @@ hr{
     }
     .catalogo-img-container h2{
         font-size:3rem;
+    }
+
+    .mais-vendidos nav li h5{
+        font-size: 0.9rem;
+    }
+
+    .mais-vendidos nav li span{
+        font-size: 0.8rem;
+        margin-top: 0.1rem;
     }
 }
