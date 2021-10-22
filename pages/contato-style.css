@@ -29,6 +29,10 @@ article h1{
     font-family: 'Parisienne', cursive;
 } */
 
+h1, h2{
+    font-weight: 300;
+}
+
 .ctt-main{
     width: 80%;
     /* Mudar width para mobile */
