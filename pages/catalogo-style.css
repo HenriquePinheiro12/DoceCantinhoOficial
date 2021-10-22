@@ -116,6 +116,11 @@ hr{
     font-weight: 700;
 }
 
+.catalogo-images{
+    
+}
+
+
 @media(max-width:1050px){
     .hero{
         height: 23vw;

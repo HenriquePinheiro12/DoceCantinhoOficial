@@ -89,26 +89,35 @@
     </section><!--icons-->
 
     <section class="catalogo-images white">
-        <div style="background-image: url(../assets/bolo-floresta-negra.jpg);" class="catalogo-img">
-            <div class="catalogo-over-img">
-                <h2>Bolos</h2>
-            </div>
-        </div>
-        <div style="background-image: url(../assets/cheese-cake.jpg);" class="catalogo-img">
-            <div class="catalogo-over-img">
+        <div class="flex-img-block">
+            
+            <div class="catalogo-img-container">
+                <div style="background-image: url(../assets/bolo-floresta-negra.jpg);" class="catalogo-img">
+                    <div class="catalogo-over-img"></div><!--background-color rgb(0,0,0, 0.6)-->
+                </div><!--scale()-->
+                <h2>Bolos</h2><!-- h2, position absolute para poder fazer o efeito de zoom -->
+            </div><!--overflow hidden-->
+
+            <div class="catalogo-img-container">
+                <div style="background-image: url(../assets/cheese-cake.jpg);" class="catalogo-img">
+                    <div class="catalogo-over-img"></div>
+                </div>
                 <h2>Sobremesas</h2>
             </div>
-        </div>
-        <div style="background-image: url(../assets/beijinhos-brigadeiros.jpg);" class="catalogo-img">
-            <div class="catalogo-over-img">
+            <div class="catalogo-img-container">
+                <div style="background-image: url(../assets/beijinhos-brigadeiros.jpg);" class="catalogo-img">
+                    <div class="catalogo-over-img"></div>
+                </div>
                 <h2>Doces</h2>
             </div>
-        </div>
-        <div style="background-image: url(../assets/picole-chocolate.jpg);" class="catalogo-img">
-            <div class="catalogo-over-img">
+            <div class="catalogo-img-container">
+                <div style="background-image: url(../assets/picole-chocolate.jpg);" class="catalogo-img">
+                    <div class="catalogo-over-img"></div>
+                </div>
                 <h2>Gelados</h2>
             </div>
-        </div>
+
+        </div><!--flex-img-block-->
     </section><!--catalogo-images-->
 
     <section class="mais-vendidos white">
