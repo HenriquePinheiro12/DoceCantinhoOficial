@@ -31,6 +31,7 @@ hr{
     border: none;
     border-radius: 2px;
     height: 4px;
+    margin: 0 auto;
 }
 
 .brown{background-color: #1e0e0d; color: white;}
@@ -79,6 +80,42 @@ hr{
     width:18%;
 }
 
+.icons{
+    padding: 4rem 0;
+}
+
+.icons nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    max-width: 100%;
+}
+
+.icons nav li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons nav li i{
+    margin-bottom: 1.5rem;
+    font-size:5rem;
+    color: #1e0e0d;
+    
+}
+
+.icons hr{
+    width: 20%;
+
+}
+
+.icons nav li span{
+    font-weight: 700;
+}
+
 @media(max-width:1050px){
     .hero{
         height: 23vw;
@@ -110,11 +147,24 @@ hr{
         border-radius: 2px;
         width: 30%;
     }
+
+    .icons nav li i{
+        font-size: 6rem;
+    }
+
+    .icons nav li span{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media(max-width:800px){
     .hero{
         height: 30vw;
+    }
+
+    .icons nav li i{
+        font-size: 5rem;
     }
 }
 
@@ -146,8 +196,29 @@ hr{
         border-radius: 2px;
         width: 30%;
     }
-}
 
+    .icons{
+        padding: 2rem 0;
+    }
+
+    .icons nav{
+        width: 90%;
+        margin-bottom: 1.5rem;
+    }
+
+    .icons nav li i{
+        font-size: 3.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .icons nav li span{
+        font-size: 1rem;
+    }
+
+    .icons hr{
+        width: 30%;
+    }
+}
 
 @media(max-width:300px){
     .doce-pan{
@@ -159,11 +230,23 @@ hr{
     }
     
     .titulo h1{
-        font-size: 1.5rem;
+        font-size: 1.9rem;
         margin-bottom: 0.5rem;
     }
     .titulo p{
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         margin-bottom: 1rem;
+    }
+
+    .icons nav li i {
+        font-size: 2.5rem;
+    }
+
+    .icons nav li span{
+        font-size: 0.8rem;
+    }
+
+    .icons hr{
+        width: 40%;
     }
 }
