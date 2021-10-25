@@ -173,6 +173,38 @@ hr{
     margin-bottom: 0;
 }
 
+.flex-galeria-titulo{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.galeria-img-container{
+    width:calc(33% - 1rem);
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.galeria-img-container .galeria-over-img{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.galeria-img-container .galeria-over-img:last-child{
+    font-size: 2.3rem;
+}
+
 
 @media(max-width:1050px){
     .hero{
@@ -228,8 +260,15 @@ hr{
         margin-bottom: 1.5rem;
         margin-right: 1.5rem;
     }
-}
 
+    .galeria-img-container .galeria-over-img{
+        font-size: 2rem;
+    }
+
+    .galeria-img-container .galeria-over-img:last-child{
+        font-size: 1.8rem;
+    }
+}
 
 @media(max-width:800px){
     .hero{
@@ -296,6 +335,14 @@ hr{
     .flex-menu-block{
         font-size: 1rem;
     }
+
+    .galeria-img-container .galeria-over-img{
+        font-size: 1.5rem;
+    }
+
+    .galeria-img-container .galeria-over-img:last-child{
+        font-size: 1.2rem;
+    }
 }
 @media(max-width:600px){
     .titulo{
@@ -327,6 +374,25 @@ hr{
 
     .flex-menu-block{
         font-size: 0.9rem;
+    }
+
+    .flex-galeria-titulo{
+        flex-direction: column;
+    }
+
+    .flex-galeria-titulo .galeria-img-container{
+        width: 350px;
+        max-width: 90%;
+        height: 550px;
+        margin-bottom: 1rem;
+    }
+    
+    .galeria-img-container .galeria-over-img{
+        font-size: 2rem;
+    }
+
+    .galeria-img-container .galeria-over-img:last-child{
+        font-size: 1.8rem;
     }
 }
 
@@ -383,5 +449,17 @@ hr{
 
     .perso-info-main .perso-img{
         flex-basis:400px;
+    }
+
+    .flex-galeria-titulo .galeria-img-container{
+        height: 400px;
+    }
+
+    .galeria-img-container .galeria-over-img{
+        font-size: 1.8rem;
+    }
+
+    .galeria-img-container .galeria-over-img:last-child{
+        font-size: 1.5rem;
     }
 }
