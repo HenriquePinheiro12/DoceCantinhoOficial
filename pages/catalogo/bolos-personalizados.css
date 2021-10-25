@@ -152,6 +152,28 @@ hr{
     font-size: 1rem;
 }
 
+.flex-menu-block{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 1.5rem;
+    width:800px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.flex-menu-block .col li{
+    margin-bottom: 1rem;
+    list-style: circle;
+}
+
+.flex-menu-block .col li:last-child{
+    margin-bottom: 0;
+}
+
+
 @media(max-width:1050px){
     .hero{
         height: 23vw;
@@ -161,12 +183,12 @@ hr{
     }
 
     .titulo h1{
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-bottom: 2rem;
     }
 
     .titulo p{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-bottom: 2.5rem;
     }
 
@@ -185,6 +207,7 @@ hr{
     }
 
     .perso-info-main .perso-img{
+        height: 20vw;
         min-height: 400px;
         flex-basis: 300px;
     }
@@ -194,13 +217,13 @@ hr{
     }
 
     .perso-info h2{
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin: 1.5rem;
     }
 
     .info-box{
         margin-left: 2.5rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         margin-left: 2rem;
         margin-bottom: 1.5rem;
         margin-right: 1.5rem;
@@ -269,6 +292,10 @@ hr{
         transform:translateY(-1.5rem);
         flex-basis: 500px;
     }
+
+    .flex-menu-block{
+        font-size: 1rem;
+    }
 }
 @media(max-width:600px){
     .titulo{
@@ -298,8 +325,25 @@ hr{
         width: 40vw;
     }
 
+    .flex-menu-block{
+        font-size: 0.9rem;
+    }
 }
 
+
+@media(max-width:400px){
+    .flex-menu-block{
+        margin: 0 auto;
+        width: 200px;
+        max-width: 90%;
+        flex-direction:column;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+    .col1{
+        margin-bottom: 1rem;
+    }
+}
 
 @media(max-width:300px){
     .titulo{
