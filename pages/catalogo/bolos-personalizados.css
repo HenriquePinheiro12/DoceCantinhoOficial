@@ -81,6 +81,77 @@ hr{
 }
 
 
+.perso-info-main{
+    width: 80%;
+    /* Mudar width para mobile */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    padding:35px 1vw
+}
+
+.perso-over-img{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+
+.perso-info-main .perso-img{
+    z-index: 5;
+    height:600px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    flex-basis: 500px;
+    -webkit-box-shadow: 0px 0px 13px -1px #000000; 
+    box-shadow: 0px 0px 10px -1px #000000;
+    overflow: hidden;
+    display: flex;
+}
+
+.perso-info-main .perso-info{
+    flex-basis: 50%;
+    background-color: #1e0e0d;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-box-shadow: 0px 0px 13px -1px #000000; 
+    box-shadow: 0px 0px 10px -1px #000000;
+}
+
+.perso-info h2{
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.info-box{
+    text-align: left;
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}
+
+.info-box li{
+    margin-bottom: 0.5rem;
+}
+
+
+.info-box li:last-child{
+    margin-bottom: 0;
+}
+
+#whats{
+    margin-left: 3rem;
+    margin-right: 0.5rem;
+}
+
+.info-box li span{
+    font-size: 1rem;
+}
+
 @media(max-width:1050px){
     .hero{
         height: 23vw;
@@ -112,6 +183,28 @@ hr{
     .doce-pan{
         width:30%;
     }
+
+    .perso-info-main .perso-img{
+        min-height: 400px;
+        flex-basis: 300px;
+    }
+
+    .perso-info-main .perso-info{
+        flex-basis: 60%;
+    }
+
+    .perso-info h2{
+        font-size: 2rem;
+        margin: 1.5rem;
+    }
+
+    .info-box{
+        margin-left: 2.5rem;
+        font-size: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+    }
 }
 
 
@@ -138,6 +231,43 @@ hr{
         height: 2px;    
         border-radius: 2px;
         width: 30%;
+    }
+    .perso-info-main{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+    }
+
+    .perso-info-main .perso-info{
+        flex-basis: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .perso-info h2{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        max-width: 100%;
+    }
+
+    .info-box{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    #whats, .info-box li span{
+        margin-top: 0.5rem;
+    }
+
+    .perso-info-main .perso-img{
+        max-width: 90%;
+        width: 400px;
+        transform:translateY(-1.5rem);
+        flex-basis: 500px;
     }
 }
 @media(max-width:600px){
@@ -177,7 +307,7 @@ hr{
     }
     
     .titulo h1{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-bottom: 0.5rem;
     }
 
@@ -188,5 +318,26 @@ hr{
 
     .doce-pan{
         width:40%;
+    }
+
+    .perso-info-main .perso-info{
+        padding: 1rem 0.5rem;
+    }
+
+    .perso-info h2{
+        font-size: 2rem;
+    }
+
+    .info-box{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #whats{
+        margin-left: 1rem;
+    }
+
+    .perso-info-main .perso-img{
+        flex-basis:400px;
     }
 }
