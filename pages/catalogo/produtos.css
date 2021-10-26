@@ -113,7 +113,17 @@ hr{
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-end;
 }
+
+.saiba-mais{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
 
 .produto-container nav h5{
     font-size: 1.2rem;
@@ -123,6 +133,11 @@ hr{
     font-size: 1rem;
     opacity: 0.9;
 }
+
+.saiba-mais-mobile{
+    display: none;
+}
+
 
 @media(max-width:1050px){
     .hero{
@@ -195,6 +210,12 @@ hr{
     .produto-container nav span{
         font-size: 0.9rem;    
     }
+
+    .saiba-mais{
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
 }
 @media(max-width:600px){
     .titulo{
@@ -242,12 +263,32 @@ hr{
         margin-right: 1rem;
     }
 
+    .produto-container nav{
+        max-width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .produto-container nav h5{
         font-size: 1rem;
     }
 
     .produto-container nav span{
         font-size: 0.9rem;
+    }
+
+    .saiba-mais{
+        display: none;
+    }
+
+    
+    .saiba-mais-mobile{
+        display: initial;
+        margin-top: 1rem;
+        width: fit-content;
+        padding: 0.2rem 0.5rem;
+        border-radius: 3px;
+        font-size: 1rem;
     }
 
 }
