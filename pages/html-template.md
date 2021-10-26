@@ -321,8 +321,8 @@
     </section>
 
     <section class="titulo white">
-        <h1>Doces</h1>
-        <p>Experimente nossos diversos doces!</p>
+        <h1>Gelados</h1>
+        <p>Experimente nossos sorvetes, açaís e muito mais!</p>
         <hr class="brown">
     </section>
 
