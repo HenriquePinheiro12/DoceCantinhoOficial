@@ -1,0 +1,14 @@
+*{
+    transition: 1s;
+}
+
+.info-box li .sabores{
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    margin-left: 3rem;
+    list-style: circle;
+}
+
+.info-box li .sabores li{
+    margin-bottom: 0.2rem;
+}
