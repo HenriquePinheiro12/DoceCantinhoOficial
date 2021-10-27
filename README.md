@@ -37,3 +37,6 @@ Final work of the Web Programming subject´s first year from Systems Development
 The work was essential to practice all the learning that have been developed through my first year of frontend studying. With it, I could practice a lot of CSS, including technologies such as flexbox, animations, media queries and pseudo-classes.
 I´ve shurely enjoyed all the learning I had and hope to have put it inside this project. 
 Intending to start studying JS and Flexbox Grid from now
+
+***
+[MIT LICENSE](https://github.com/HenriquePinheiro12/DoceCantinhoOficial/blob/main/LICENSE)
