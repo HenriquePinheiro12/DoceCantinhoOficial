@@ -1,0 +1,62 @@
+SOBRE NÓS
+ABOUT US
+
+-Quem somos
+-Who we are
+
+O Doce Cantinho é uma loja familiar criada 2019. Somos uma dupla de mãe e filha que ama a confeitaria e tem muita paixão pelo que faz.
+Doce Cantinho is a familial store created in 2019. We are a pair of mother and daughter which loves confectionery and has a lot of passion for what it does.
+
+----------------------------------------------------------------------
+-Nossa História
+-Our history
+
+A loja foi criada através do sonho de infância de sua idealizadora, que sempre amou confeitar doces para a família e amigos. 
+The store was created from its idealizer´s chilhood´s dream, who´ve always loved to confection candies for family and friends.
+
+Em dois anos de história, tornou profissão o que antes era apenas um hobby, colocando em prática todo o aprendizado e estudo que vem se desenvolvendo nos últimos tempos.
+In two years of history, it turned into profession what was once just a hobby, applying all the learning and study that have been developed throughout the last times.
+
+--------------------------------------------------------------------
+-Nossas Delícias
+-Our deliciousness
+
+Confeccionamos a maior variedade de doces e sobremesas. De saborosos bolos a irresistíveis sorvetes, sem esquecer de nossos deliciosos donuts!
+We confection the biggest variety of candies and desserts. From tasty cakes to irresistible ice creams, not forgeting of our delicious donuts!
+
+(background-color: #000000)
+(opacity: 65%)
+--------------------------------------------------------------------
+-Venha nos Conhecer
+-Come visit us
+
+Come visit the most sweer and pleasant place of Guarulhos.
+Venha conhecer o cantinho mais doce e mais agradável de Guarulhos.
+
+Rua Cavadas, 449 - Vila São João, Guarulhos - SP
+07044-140
+
+
+-------------------------------------------------------------
+-Horário de Funcionamento
+-Opening hours
+
+Domingo: 14:00 - 18:00
+Seg à Qui: 09:00 - 19:00
+Sex: 09:00 -17:00
+
+Sunday: 14:00 - 18:00
+Mon to Thur: 09:00 - 19:00
+Friday: 09:00 -17:00
+
+------------------------------------------------------
+-Logo
+(background-color: #000000)
+(opacity: 60%)
+
+
+O doce cantinho é uma loja familiar, criada em 2019, através de sonho de infância de sua idealizadora, que sempre adorou cozinhar doces para a família e amigos. Tornou profissão o que antes era apenas um hobby, colocando em prática todo o aprendizado e estudo que vem desenvolvendo nos últimos tempos
+
+
+Chave Google Maps API
+AIzaSyCyigj3p5BrmgVTuujOUavTPtfbaA0zv-c

@@ -1,0 +1,27 @@
+* início ()
+* sobre nós ()
+* contato ()
+* catálogo
+   - bolos
+       . simples
+       . decorados
+       . personalizados
+   -sobremesas
+   - doces
+       . lasanha brownie
+       . pao de mel
+       . bombom
+       . palheta gourmet
+       . cupcake recheado
+       . copos felicidade 300ml
+       . copos felicidade 250ml
+    - gelados (desenhar layout com todos os sabores no formato de menu)
+       . cascão
+       . casquinha
+       . cestinha
+       . copinho
+       . açaí
+       . hula hula
+       . ostentação
+       . milk shake
+       . sundae

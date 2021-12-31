@@ -1,0 +1,26 @@
+.parent{
+   overflow:hidden;
+}
+
+.child{
+   height: 100%;
+   width: 100%;
+   background-image: url();
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover; 
+   transition:1s;
+}
+
+
+.parent:hover .child{
+   transform:scale(1.5);
+}
+
+
+/*
+The child div will increase its size, for overflow:hidden in parents div shall hide all the content outside it. It will seem like the img is zooming, but it is just rising with an auto covered background
+
+
+*/

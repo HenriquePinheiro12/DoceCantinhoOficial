@@ -1,0 +1,37 @@
+awardspace
+docecantinho.onlinewebshop.net
+
+obs: test #343232
+
+
+INICIO
+
+PRODUTOS | CATÁLOGO | PORTFÓLIO
+bolos
+doces
+chocolates
+sorvetes
+biscoitos
+
+
+SOBRE NÓS
+Onde encontrar - google maps API?
+(sobre nós com onde encontrar dentro?)
+Horário de funcionamento
+
+
+CONTATO
+whatsapp
+telefone
+endereço
+(follow us)social media
+e-mail form?
+
+------------------------------------------------------------------------------------
+manter seções (bolos, sobremesas, doces e gelados), 
+
+colocar seção para sobremesas, (sabores de tortas e de outros doces)
+
+colocar botão saiba mais para alguns doces, com uma página própria pra estese algumas informações, como outros sabores
+
+best sellers na página início?
