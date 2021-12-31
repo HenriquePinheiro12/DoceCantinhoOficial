@@ -1,11 +1,11 @@
 <div align="center">
-    <a href="http://fundtestbucket.s3-website.us-east-2.amazonaws.com/#" target="_blank">
+    <a href="https://henriquepinheiro12.github.io/DoceCantinhoOficial/" target="_blank">
         <img src="assets/logo-tpt-resized.png">
     </a>    
 </div>
     
 <p align="center">
-    <a href="http://fundtestbucket.s3-website.us-east-2.amazonaws.com/#" target="_blank">Oficial site of Doce Cantinho confectionery🍓</a>
+    <a href="https://henriquepinheiro12.github.io/DoceCantinhoOficial/" target="_blank">Oficial site of Doce Cantinho confectionery🍓</a>
 </p>
 
 
